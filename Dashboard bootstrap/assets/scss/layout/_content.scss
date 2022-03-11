@@ -4,19 +4,34 @@
         scrollbar-color: #6969dd #e0e0e0;
         scrollbar-width: thin;
         scrollbar-gutter: stable;
-        flex: 0 0 300px;
+        flex: 0 0 350px;
         .stats {
             color:$white;
             background-color: $primary;
         }
-        .icon-wrapper {
-            color: $primary;
-            background-color: $white;
-            width: $icon-wrapper-width;
-            height: $icon-wrapper-height;
-        }
+        
         .stats-bg {
             width: 60px;
         }
+    }
+}
+
+//filtericon
+.filter-icon {
+    top: 17px;
+    right: 15px;
+    z-index: 999;
+    font-size: 1rem;
+}
+
+//icon wrapper
+.icon-wrapper {
+    color: $primary;
+    background-color: $white;
+    width: $icon-wrapper-width;
+    height: $icon-wrapper-height;
+    
+    .font-icon{
+        font-size: 1rem;
     }
 }

@@ -1,16 +1,26 @@
 // All the SCSS Variables goes here
 
+//font-weight all
+$font-weight-bolder: 600;
+
 // achor tag
 $link-decoration: none;
 $link-color: $primary;
 $link-hover-color: $primary;
 
+
+
+//sidebar
+$border-radius-image: 20%;
+
 // radius
 $border-radius: 2rem;
 
 // input-border-radius
-$input-border-radius: .75rem;
+$input-border-radius: .65rem;
 $input-line-height: 2.5;
+
+//fontsize for search bar
 
 // icon-wrapper 
 $icon-wrapper-width: 40px;
